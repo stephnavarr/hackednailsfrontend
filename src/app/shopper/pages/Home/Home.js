@@ -1,4 +1,4 @@
-"use client"
+'use client';
 import classes from './Home.module.css';
 import Header from '../../layout/Header';
 import Carousel from './Carousel';
@@ -11,7 +11,6 @@ function Home() {
     );
   };
 
-
   const TaglineSection = () => {
     return (
       <section className={classes.taglineSection}>
@@ -19,7 +18,7 @@ function Home() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. 
+          aliquip ex ea commodo consequat.
         </p>
         <Carousel />
       </section>
